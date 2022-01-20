@@ -10,6 +10,34 @@ header {
     text-align: center;
 }
 
+header div {
+    top: 0;
+    overflow: hidden;
+    background-color: tomato;
+}
+
+
+header div li {
+    display: inline;
+    font-size: 15px;
+    padding: 8px;
+    float: right;
+    background-color: tomato;
+}
+
+header div li:hover{
+    background-color: turquoise;
+}
+
+header div li a {
+    color: white;
+    text-decoration: none;
+}
+
+header div li a:hover{
+    color: white;
+}
+
 .title {
     background-color: tomato;
     background-blend-mode: lighten ;
